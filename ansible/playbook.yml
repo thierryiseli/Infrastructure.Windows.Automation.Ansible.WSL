@@ -1,0 +1,13 @@
+# Playbook for server
+---
+- hosts: localhost
+  become_method: runas
+  become_user: Administrator
+  vars:
+    ansible_port: 5985
+    ansible_connection: winrm
+    ansible_winrm_transport: ntlm
+  roles:
+  - basics
+  - web
+...
