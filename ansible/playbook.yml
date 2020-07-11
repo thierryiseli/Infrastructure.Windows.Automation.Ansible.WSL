@@ -1,4 +1,3 @@
-# Playbook for server
 ---
 - hosts: localhost
   become_method: runas
