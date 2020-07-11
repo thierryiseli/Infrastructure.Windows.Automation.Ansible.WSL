@@ -1,0 +1,9 @@
+---
+- name: Install Visual Studio Code
+  win_chocolatey:
+    name: vscode
+- name: Install Visual Studio 2019 Community
+  win_chocolatey:
+    name: visualstudio2019community
+    package_params: "--allWorkloads"
+...

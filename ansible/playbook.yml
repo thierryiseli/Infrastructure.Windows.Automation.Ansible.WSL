@@ -9,4 +9,5 @@
   roles:
   - basics
   - web
+  - dev_microsoft
 ...
