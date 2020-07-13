@@ -78,7 +78,7 @@ Enter your Windows password and after that ansible will run on your Windows host
 
 ## Authors
 
-- [Thierry Iseli](https://github.com/thierryiseli) - *Inital work*
+- [Thierry Iseli](https://github.com/thierryiseli) - *Initial work*
 
 ## License
 
